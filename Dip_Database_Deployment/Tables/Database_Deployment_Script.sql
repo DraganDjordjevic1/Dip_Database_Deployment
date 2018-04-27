@@ -26,10 +26,10 @@ INSERT INTO AuthorTable(authorID, firstName, lastName, authorTFN) VALUES
 (32567, "Edgar", "Codd", 150111222),
 (76543, "Vinton", "Cerf", 150222333),
 (12345, "Alan", "Turing", 150333444);
-INSERT INTO BookTable(ISBN, bookTitle, yearPublished) VALUES
-(978-3-15-148410-0, "Relationships with Databases, the ins and outs", 1970),
-(978-3-15-148410-1, "Normalisation, how to make a database geek fit in", 1973),
-(978-3-15-148410-2, "TCP/IP, the protocol for the masses", 1983),
-(978-3-15-148410-3, "The Man, the Bombe, and the Enigma", 1940);
+INSERT INTO BookTable(ISBN, bookTitle, yearPublished , authorID) VALUES
+(978-3-15-148410-0, "Relationships with Databases, the ins and outs", 1970, 32567),
+(978-3-15-148410-1, "Normalisation, how to make a database geek fit in", 1973, 32567),
+(978-3-15-148410-2, "TCP/IP, the protocol for the masses", 1983, 76543),
+(978-3-15-148410-3, "The Man, the Bombe, and the Enigma", 1940, 12345);
 
 END;
