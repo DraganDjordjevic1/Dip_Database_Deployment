@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[BookTable]
+(
+	[ISBN] VARCHAR(50) NOT NULL,
+	[bookTitle] VARCHAR(50) NOT NULL,
+	[yearPublished] INT NOT NULL,
+	CONSTRAINT PK_Book PRIMARY KEY (ISBN)	
+)
